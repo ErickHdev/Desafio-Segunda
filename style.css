@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.fundo {
+    margin-top: 10vh;
+}
+
+#imagemPc {
+    width: 300px;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column ;
+}
+
+.inputs {
+    font-size: large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputName {
+    width: 300px;
+}
+
+.elementos {
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: #80ff00;
+}
+
+button:hover {
+    background-color: #ceff9c;
+}
